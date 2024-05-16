@@ -35,15 +35,7 @@
 .search input {
 	width: 500px;
 }
-.loginBox {
-	text-align: center;
-	border: 0.5px rgb(212, 212, 212) solid;
-	width: 250px;
-	padding: 20px;
-	margin: auto;
-	border-radius: 10px;
-	box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.33);
-}
+
 form {
 	margin: 20px;
 }
@@ -51,14 +43,6 @@ img {
 	width: 50px;
 }
 
-#submit {
-	background-color: rgb(157, 157, 157);
-	color: white;
-	width: 100px;
-	height: 30px;
-	border-radius: 5px;
-	border: none;
-}
 .alternate {
 	color: rgb(119, 118, 118);
 }
@@ -67,4 +51,33 @@ img {
 }
 .savings .center {
 	padding-bottom: 30px;
+}
+.ig {
+	width: 50px;
+	height: 40px;
+	padding-left: 0px;
+	align-items: center;
+	text-align: center;
+}
+.share {
+	padding-top: 100px;
+}
+
+.share p {
+	font-size: 30px;
+	padding-right: 0px;
+	text-align: center;
+	align-items: center;
+	color: black;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+@keyframes example {
+	from {
+		color: black;
+	}
+	to {
+		color: orange;
+	}
 }
