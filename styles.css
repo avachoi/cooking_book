@@ -1,0 +1,55 @@
+.container {
+	margin: auto;
+	padding: 50px;
+}
+.logo {
+	width: 120px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.logIn {
+	align-content: center;
+}
+.item {
+	padding: 10px 30px 10px 30px;
+}
+.nav {
+	padding-bottom: 50px;
+}
+.logInImg {
+	width: 30px;
+}
+.logIn > * {
+	padding: 0px;
+}
+.search input {
+	width: 500px;
+}
+.loginBox {
+	text-align: center;
+	border: 0.5px rgb(212, 212, 212) solid;
+	width: 250px;
+	padding: 20px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px rgba(1, 1, 1, 0.33);
+}
+form {
+	margin: 20px;
+}
+img {
+	width: 50px;
+}
+
+#submit {
+	background-color: rgb(231, 136, 210);
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+.alternate {
+	color: rgb(194, 114, 177);
+}
